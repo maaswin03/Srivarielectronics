@@ -1,6 +1,7 @@
 import type React from "react";
 import { useState } from "react";
 import styles from "./NavigationBar.module.css";
+import { Link } from "react-router-dom";
 
 const NavigationBar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,29 +26,29 @@ const NavigationBar: React.FC = () => {
       </div>
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.open : ""}`}>
         <li>
-          <a href="/" onClick={toggleMenu}>
+          <Link to="/" onClick={toggleMenu}>
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/services" onClick={toggleMenu}>
+          <Link to="/Services" onClick={toggleMenu}>
             Services
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/about" onClick={toggleMenu}>
+          <Link to="/AboutUs" onClick={toggleMenu}>
             About Us
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/" onClick={toggleMenu}>
+          <Link to="/Gallery" onClick={toggleMenu}>
             Gallery
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/contact" onClick={toggleMenu}>
+          <Link to="/ContactUs" onClick={toggleMenu}>
             Contact Us
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
