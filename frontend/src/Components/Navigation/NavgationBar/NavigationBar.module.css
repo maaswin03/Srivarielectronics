@@ -89,7 +89,8 @@
 
     .navbar h2 {
         margin-left: 0;
-        font-size: 16px;
+        font-size: 18px;
+        letter-spacing: 0.5px;
     }
 
     .navLinks {
