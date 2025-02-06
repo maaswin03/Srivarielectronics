@@ -1,0 +1,116 @@
+*{
+    font-family: "Montserrat";
+}
+.HeroSection-box1 {
+    background-image: url('../../Media/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    opacity: 0.9;
+}
+
+.HeroSection-box1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+
+.HeroSection-box2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HeroSection-box3{
+    width: 90%;
+    margin: auto;
+}
+
+.HeroSection-box3 h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    margin-top: 2%;
+    font-family: "Montserrat";
+}
+
+.HeroSection-box3 h3{
+    color:#F59E0B;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 2%;
+}
+
+
+.HeroSection-box3 p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+    text-align: justify;
+    margin-top: 2%;
+    font-family: "Montserrat";
+}
+
+.HeroSection-box4{
+    margin-top: 2%;
+    display: flex;
+    gap:20px;
+}
+
+.HeroSection-box4 button{
+    padding: 2% 5% 2% 5%;
+    background-color: #002999;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    color:white;
+}
+
+#learnmore{
+    background-color: #F59E0B;
+    color:black
+}
+
+.HeroSection-box4 button:hover{
+    opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+    .HeroSection-box1 {
+        height: 50vh;
+    }
+    .HeroSection-box2{
+        width: 90%;
+        margin: auto;
+    }
+    .HeroSection-box3{
+        width: 100%;
+    }
+    .HeroSection-box3 h1{
+        font-size: 25px;
+        margin-top: 5%;
+    }
+    .HeroSection-box3 p{
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .HeroSection-box3 h3{
+        font-size: 15px;
+    }
+}

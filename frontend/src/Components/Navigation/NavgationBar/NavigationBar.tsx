@@ -13,8 +13,7 @@ const NavigationBar: React.FC = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        {/* <img src="/logo.svg" alt="Company Logo" /> */}
-        <h2>Sri Vari Electricals</h2>
+        <h2 style={{"fontWeight":"700"}}>SRI VARI ELECTRICALS</h2>
       </div>
       <div
         className={`${styles.menuIcon} ${isMenuOpen ? styles.open : ""}`}
