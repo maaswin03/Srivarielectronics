@@ -6,6 +6,8 @@ yarn-error.log*
 pnpm-debug.log*
 pnpm-error.log*
 
+frontend1
+
 # Environment variables
 .env
 .env.local
