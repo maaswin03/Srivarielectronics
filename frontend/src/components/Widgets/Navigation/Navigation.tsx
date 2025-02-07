@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Navigation.css";
-import TopBar from "../TopBar/TopBar";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
