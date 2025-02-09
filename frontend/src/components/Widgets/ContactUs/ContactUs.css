@@ -1,14 +1,11 @@
-*{
-    font-family: Montserrat,sans-serif;
-}
-
-.services-1{
+.ContactUs-1{
     width: 90%;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
-.services-1 h1 {
+.ContactUs-1 h1 {
     font-size: 35px;
     font-weight: 700;
     font-family: Montserrat,sans-serif;
@@ -17,49 +14,77 @@
     text-align: center;
 }
 
-.services-1 p {
+.ContactUs-1 p {
     font-weight: 300;
     font-family: Montserrat,sans-serif;
     font-size: 16px;
     letter-spacing: 0.7px;
     color: white;
     text-align: center;
+    margin-bottom: 2%;
 }
 
-.services-2{
-    width: 100%;
+.ContactUs-2{
     display: flex;
-    margin-top: 3%;
-    gap: 5%;
+    gap: 2%;
 }
 
-.services-3{
-    width: 100%;
-    font-family: Montserrat,sans-serif;
+.ContactUs-3{
+    width: 40%;
 }
 
-.services-button:hover {
+.ContactUs-5{
+    width: 60%;
+}
+
+.ContactUs-7{
+    margin-bottom: 2%;
+}
+
+.ContactUs-10{
+    margin-top: 10%;
+}
+.ContactUs-10 ul{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.icon-box:hover {
     opacity: 0.8;
 }
+
 
 .services-button{
     background: linear-gradient(145deg, #1e2024, #23272b);
     color: white;
     border: 1px solid white;
     padding: 10px 15px 10px 15px;
-    margin-top: 3%;
     border-radius: 5px;
     font-family: Montserrat, sans-serif;
     font-size: 12px;
     letter-spacing: 0.7px;
-    margin-left: 2%;
 }
 
+
 @media (max-width: 768px) {
-    .services-2{
+    .ContactUs-2{
         flex-wrap: wrap;
     }
-    .services-3{
+    .ContactUs-3{
+        width: 95%;
+        margin: auto;
         margin-bottom: 5%;
     }
 }
