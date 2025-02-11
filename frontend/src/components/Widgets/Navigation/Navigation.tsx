@@ -28,7 +28,7 @@ function Navbar() {
             Services
           </Link>
 
-          <Link to="hero" smooth={true} duration={500} offset={-70}>
+          <Link to="products" smooth={true} duration={500} offset={-70}>
             Products
           </Link>
 
@@ -68,6 +68,11 @@ function Navbar() {
             <li>
               <Link to="services" smooth={true} duration={500} offset={-70}>
                 Services
+              </Link>
+            </li>
+            <li>
+              <Link to="products" smooth={true} duration={500} offset={-70}>
+                Products
               </Link>
             </li>
             <li>

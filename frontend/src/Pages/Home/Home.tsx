@@ -6,6 +6,7 @@ import AboutUs from "@/components/Widgets/AboutUs/AboutUs";
 import Gallery from "@/components/Widgets/Gallery/Gallery";
 import ContactUs from "@/components/Widgets/ContactUs/ContactUs";
 import Footer from "@/components/Widgets/Footer/Footer";
+import Products from "@/components/Widgets/Products/Products";
 
 function Home() {
   return (
@@ -19,6 +20,9 @@ function Home() {
       </div>
       <div id="about">
         <AboutUs />
+      </div>
+      <div id="products">
+        <Products />
       </div>
       <div id="gallery">
         <Gallery />
