@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-scroll";
 import "./Navigation.css";
 
 function Navbar() {
@@ -19,15 +20,29 @@ function Navbar() {
         </div>
 
         <div className="navbar-2 navbar-3 navbar-5">
-          <a href="">Home</a>
+          <Link to="hero" smooth={true} duration={500} offset={-70}>
+            Home
+          </Link>
 
-          <a href="">Services</a>
+          <Link to="services" smooth={true} duration={500} offset={-70}>
+            Services
+          </Link>
 
-          <a href="">About Us</a>
+          <Link to="hero" smooth={true} duration={500} offset={-70}>
+            Products
+          </Link>
 
-          <a href="">Gallery</a>
+          <Link to="about" smooth={true} duration={500} offset={-70}>
+            About Us
+          </Link>
 
-          <a href="">Contact Us</a>
+          <Link to="gallery" smooth={true} duration={500} offset={-70}>
+            Gallery
+          </Link>
+
+          <Link to="contact" smooth={true} duration={500} offset={-70}>
+            Contact
+          </Link>
         </div>
       </div>
 
@@ -46,19 +61,29 @@ function Navbar() {
         <nav className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
           <ul>
             <li>
-              <a href="">Home</a>
+              <Link to="hero" smooth={true} duration={500} offset={-70}>
+                Home
+              </Link>
             </li>
             <li>
-              <a href="">Services</a>
+              <Link to="services" smooth={true} duration={500} offset={-70}>
+                Services
+              </Link>
             </li>
             <li>
-              <a href="">About Us</a>
+              <Link to="about" smooth={true} duration={500} offset={-70}>
+                About Us
+              </Link>
             </li>
             <li>
-              <a href="">Gallery</a>
+              <Link to="gallery" smooth={true} duration={500} offset={-70}>
+                Gallery
+              </Link>
             </li>
             <li>
-              <a href="">Contact Us</a>
+              <Link to="contact" smooth={true} duration={500} offset={-70}>
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

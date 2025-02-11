@@ -20,11 +20,15 @@ header {
 
 
 .navbar-2 {
-    width: 50%;
+    width: 30%;
     margin: auto;
     height: 60px;
     display: flex;
     align-items: center;
+}
+
+.navbar-5{
+    width: 70%;
 }
 
 #Title {
@@ -38,7 +42,7 @@ header {
 .navbar-3 {
     padding-left: 3%;
     display: flex;
-    gap: 5%;
+    gap: 3%;
 }
 
 .navbar-2 a {

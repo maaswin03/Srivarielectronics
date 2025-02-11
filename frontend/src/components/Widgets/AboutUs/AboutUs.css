@@ -2,7 +2,7 @@
     width: 95%;
     margin: auto;
     display: flex;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .AboutUs-2 {
@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 5% 2% 5% 5%;
 }
 
 

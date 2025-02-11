@@ -1,0 +1,109 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+.Footer-1 {
+    width: 100%;
+    background-color: orangered;
+    padding-top: 3%;
+}
+
+.Footer-2 {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.Footer-3 {
+    width: 30%;
+}
+
+.Footer-4 a:hover{
+    color: black;
+}
+
+.Footer-4 h1 {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.Footer-4 p {
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: white;
+    margin-top: 2%;
+}
+
+.Footer-5 {
+    width: 15%;
+}
+
+.Footer-6 {
+    width: 40%;
+}
+
+
+.Footer-17 {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+}
+
+.Footer-5 h1 {
+    font-size: 18px;
+    font-weight: 800;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.Footer-5 a {
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.7px;
+    color: white;
+    margin-top: 3%;
+}
+
+.Footer-5 a:hover {
+    color: black;
+}
+
+.Footer-5 li {
+    margin-top: 2%;
+}
+
+.Footer-15 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 3%;
+    border-top: 1px solid #ffffff;
+    letter-spacing: 0.7px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .Footer-2{
+        flex-wrap: wrap;
+        padding-top:5%;
+    }
+    .Footer-3{
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10%;
+    }
+    .Footer-5 a {
+        margin-top: 0;
+    }
+}

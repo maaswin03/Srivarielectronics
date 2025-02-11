@@ -24,13 +24,10 @@ import image3 from "@/image/image3.jpg";
 
 export default function Services() {
   return (
-    <>
+    <section id="Services">
       <div className="services-1">
         <h1>Our Services</h1>
-        <p>
-          More than solutions - delivering reliability, innovation, and
-          efficiency.
-        </p>
+        <p>We offer services that are reliable, innovative, and efficient.</p>
         <div className="services-2">
           <div className="services-3">
             <Card>
@@ -45,9 +42,9 @@ export default function Services() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Empowering businesses with high-quality electrical solutions.
-                  Our expert services ensure safety, efficiency, and reliability
-                  for all types of commercial spaces.
+                  We provide top-tier electrical solutions for businesses,
+                  ensuring safety, efficiency, and seamless power management for
+                  offices, shops, and malls.
                 </p>
               </CardContent>
               <CardFooter>
@@ -59,11 +56,9 @@ export default function Services() {
                     <AlertDialogHeader>
                       <AlertDialogTitle>Commercial Services</AlertDialogTitle>
                       <AlertDialogDescription>
-                        Empowering businesses with high-quality electrical
-                        solutions designed for safety, efficiency, and
-                        reliability. We provide expert services that support
-                        seamless operations, ensuring optimal energy use and
-                        compliance in commercial environments.
+                        We provide top-tier electrical solutions for businesses,
+                        ensuring safety, efficiency, and seamless power
+                        management for offices, shops, and malls.
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">
@@ -113,9 +108,9 @@ export default function Services() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Comprehensive electrical solutions for industries. We
-                  specialize in high-performance systems that ensure safety,
-                  efficiency, and uninterrupted operations.
+                  Our expert team delivers reliable electrical installations,
+                  automation, and maintenance for factories, warehouses, and
+                  plants, ensuring uninterrupted operations.
                 </p>
               </CardContent>
               <CardFooter>
@@ -127,13 +122,10 @@ export default function Services() {
                     <AlertDialogHeader>
                       <AlertDialogTitle>Industrial Services</AlertDialogTitle>
                       <AlertDialogDescription>
-                        Powering industries with reliable, high-performance
-                        electrical solutions. We specialize in designing,
-                        installing, and maintaining electrical systems that
-                        enhance productivity, safety, and efficiency in
-                        industrial environments. Our expert team ensures
-                        seamless operation, minimizing downtime and maximizing
-                        energy efficiency.
+                        Our expert team delivers reliable electrical
+                        installations, automation, and maintenance for
+                        factories, warehouses, and plants, ensuring
+                        uninterrupted operations.{" "}
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">
@@ -181,14 +173,14 @@ export default function Services() {
               />
 
               <CardHeader>
-                <CardTitle>Residential Service</CardTitle>
+                <CardTitle>Residential Services</CardTitle>
                 <CardDescription>Domestic</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
-                  Reliable and efficient electrical solutions for your home. We
-                  ensure safe installations, and seamless power management to
-                  keep your household running smoothly.
+                  We offer safe, efficient, and customized electrical solutions,
+                  including wiring, lighting, and automation, enhancing comfort
+                  and energy efficiency in homes.
                 </p>
               </CardContent>
               <CardFooter>
@@ -198,12 +190,11 @@ export default function Services() {
                   </AlertDialogTrigger>
                   <AlertDialogContent>
                     <AlertDialogHeader>
-                      <AlertDialogTitle>Domestic Services</AlertDialogTitle>
+                      <AlertDialogTitle>Residential Services</AlertDialogTitle>
                       <AlertDialogDescription>
-                        Providing safe, efficient, and reliable electrical
-                        solutions for your home. Our expert team ensures
-                        seamless installations, energy efficiency, and long-term
-                        safety for a worry-free living environment.
+                        We offer safe, efficient, and customized electrical
+                        solutions, including wiring, lighting, and automation,
+                        enhancing comfort and energy efficiency in homes.
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">
@@ -245,6 +236,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }

@@ -10,15 +10,23 @@ export default function AboutUs() {
           <div className="AboutUs-5">
             <h1>About Us</h1>
             <p>
-              Sri Vari Electrical Contractors are your local approved
-              electricians in Coimbatore. We are a small, friendly company
-              offering services in the domestic and industrial sector. We offer
-              a wide range of electrical services to both domestic customers and
-              those customers in the industrial and commercial sectors,
-              including renewable energy.
+              Sri Vari Electricals is your trusted partner for electrical
+              solutions. We are a dedicated company providing expert services in
+              the domestic, industrial, and commercial sectors. Our offerings
+              include a wide range of electrical services, ensuring reliability,
+              efficiency, and innovation in every project.
             </p>
             <div className="AboutUs-6">
-              <button>Contact Us</button>
+              <button
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/919843079070?text=Hello,%20I%20am%20interested%20in%20your%20services!",
+                    "_blank"
+                  )
+                }
+              >
+                Contact Us
+              </button>
             </div>
           </div>
         </div>

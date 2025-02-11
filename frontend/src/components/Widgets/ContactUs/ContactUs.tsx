@@ -38,30 +38,24 @@ export default function ContactUs() {
                 <div className="ContactUs-10">
                   <ul>
                     <li>
-                      <a
-                        href="https://www.twitter.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="tel:+919843079070">
                         <div className="icon-box">
                           <FaPhoneAlt size={20} className="text-white" />
                         </div>
                       </a>
                     </li>
+
                     <li>
-                      <a
-                        href="https://www.linkedin.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
+                      <a href="mailto:srivari.electricals24@gmail.com">
                         <div className="icon-box">
                           <IoMail size={20} className="text-white" />
                         </div>
                       </a>
                     </li>
+
                     <li>
                       <a
-                        href="https://www.facebook.com"
+                        href="https://www.facebook.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -72,7 +66,7 @@ export default function ContactUs() {
                     </li>
                     <li>
                       <a
-                        href="https://www.instagram.com"
+                        href="https://www.instagram.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -83,7 +77,7 @@ export default function ContactUs() {
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com"
+                        href="https://www.youtube.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -101,31 +95,42 @@ export default function ContactUs() {
             <Card>
               <CardHeader>
                 <CardTitle>Request A Consultation</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <div className="ContactUs-7">
-                  <Input type="text" placeholder="Enter Name" />
-                </div>
-                <div className="ContactUs-7">
-                  <Input type="email" placeholder="Enter Email" />
-                </div>
-                <div className="ContactUs-7">
-                  <Input type="text" placeholder="Enter Phone number" />
-                </div>
-                <div className="ContactUs-7">
-                  <Input type="text" placeholder="Enter Subject" />
-                </div>
-                <div className="ContactUs-7" style={{ marginBottom: "0" }}>
-                  <Textarea
-                    rows={5}
-                    className="custom-textarea"
-                    placeholder="Enter message"
-                  />
-                </div>
-              </CardContent>
-              <CardFooter>
-                <button className="services-button" style={{alignItems:'end'}}>Submit</button>
-              </CardFooter>
+              </CardHeader>{" "}
+              <form>
+                <CardContent>
+                  <div className="ContactUs-7">
+                    <Input type="text" placeholder="Enter Name" required />
+                  </div>
+                  <div className="ContactUs-7">
+                    <Input type="email" placeholder="Enter Email" required />
+                  </div>
+                  <div className="ContactUs-7">
+                    <Input
+                      type="text"
+                      placeholder="Enter Phone number"
+                      required
+                    />
+                  </div>
+                  <div className="ContactUs-7">
+                    <Input type="text" placeholder="Enter Subject" required />
+                  </div>
+                  <div className="ContactUs-7" style={{ marginBottom: "0" }}>
+                    <Textarea
+                      className="custom-textarea"
+                      placeholder="Enter message"
+                      required
+                    />
+                  </div>
+                </CardContent>
+                <CardFooter>
+                  <button
+                    className="services-button"
+                    style={{ alignItems: "end" }}
+                  >
+                    Submit
+                  </button>
+                </CardFooter>
+              </form>
             </Card>
           </div>
         </div>
