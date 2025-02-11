@@ -78,6 +78,16 @@
 
 
 @media (max-width: 768px) {
+    .ContactUs-1{
+        margin-top: 15%;
+    }
+    .ContactUs-1 h1{
+        font-size: 25px;
+    }
+    .ContactUs-1 p{
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
     .ContactUs-2{
         flex-wrap: wrap;
     }
@@ -85,5 +95,8 @@
         width: 95%;
         margin: auto;
         margin-bottom: 5%;
+    }
+    .ContactUs-7{
+        margin-bottom: 4%;
     }
 }

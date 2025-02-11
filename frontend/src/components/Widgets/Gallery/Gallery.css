@@ -62,4 +62,15 @@
     .Gallery-grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+    .Gallery-1{
+        margin-top: 10%;
+        width: 90%;
+    }
+    .Gallery-1 h1{
+        font-size: 25px;
+    }
+    .Gallery-1 p{
+        font-size: 13px;
+        margin-bottom: 5%;
+    }
 }
