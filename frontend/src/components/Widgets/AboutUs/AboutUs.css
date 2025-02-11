@@ -1,9 +1,8 @@
 .AboutUs-1 {
-    width: 100%;
+    width: 95%;
     margin: auto;
-    margin-top: 7%;
     display: flex;
-    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .AboutUs-2 {
@@ -11,21 +10,18 @@
 }
 
 .AboutUs-3 {
-    background-color: orangered;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
 }
 
-/* .AboutUs-4{
-    background-image: url('../../../image/image1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-} */
+.AboutUs-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
 
 .AboutUs-5 {
     width: 90%;
@@ -33,12 +29,12 @@
 }
 
 .AboutUs-5 h1 {
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 800;
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.7px;
-    color: rgb(0, 0, 0);
-    text-align: center;
+    color: orangered;
+    text-align: left;
 }
 
 .AboutUs-5 p {
@@ -48,7 +44,7 @@
     font-size: 16px;
     word-spacing: 3px;
     color: white;
-    text-align: center;
+    text-align: left;
     line-height: 30px;
     margin-top: 2%;
 }
@@ -56,12 +52,12 @@
 
 .AboutUs-6 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
 .AboutUs-6 button {
-    /* background: linear-gradient(145deg, #1e2024, #23272b); */
+    background: linear-gradient(145deg, #1e2024, #23272b);
     background-color: black;
     color: white;
     padding: 10px;
@@ -70,8 +66,15 @@
     font-family: Montserrat, sans-serif;
     font-size: 15px;
     letter-spacing: 0.7px;
+    border: 1px solid white;
 }
 
 .AboutUs-6 button:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .AboutUs-1{
+        flex-wrap: wrap;
+    }
 }

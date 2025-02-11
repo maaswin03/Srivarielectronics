@@ -1,13 +1,12 @@
 .Gallery-1{
     width: 95%;
     margin: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 4%;
 }
 
 .Gallery-1 h1 {
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 800;
     font-family: Montserrat,sans-serif;
     letter-spacing: 0.7px;
     color: orangered;

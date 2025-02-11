@@ -181,8 +181,8 @@ export default function Services() {
               />
 
               <CardHeader>
-                <CardTitle>Domestic Service</CardTitle>
-                <CardDescription>Residential</CardDescription>
+                <CardTitle>Residential Service</CardTitle>
+                <CardDescription>Domestic</CardDescription>
               </CardHeader>
               <CardContent>
                 <p>
