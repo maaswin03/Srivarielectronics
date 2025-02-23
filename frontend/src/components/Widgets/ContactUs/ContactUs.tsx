@@ -9,9 +9,15 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
-import { FaPhoneAlt, FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
+import {
+  FaPhoneAlt,
+  FaFacebook,
+  FaInstagram,
+  FaYoutube,
+  FaLinkedin,
+} from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import image1 from "@/image/image1.jpg";
+import image1 from "@/image/image1.jpg?w=600&format=webp";
 
 export default function ContactUs() {
   return (
@@ -116,39 +122,54 @@ export default function ContactUs() {
               <CardHeader>
                 <CardTitle>Request A Consultation</CardTitle>
               </CardHeader>
-              <form>
+              <form
+                action="https://formsubmit.co/maaswin03@gmail.com"
+                method="POST"
+              >
                 <CardContent>
                   <div className="ContactUs-7">
-                    <Input type="text" placeholder="Enter Name" required />
+                    <Input
+                      type="text"
+                      name="name"
+                      placeholder="Enter Name"
+                      required
+                    />
                   </div>
                   <div className="ContactUs-7">
-                    <Input type="email" placeholder="Enter Email" required />
+                    <Input
+                      type="email"
+                      name="email"
+                      placeholder="Enter Email"
+                      required
+                    />
                   </div>
                   <div className="ContactUs-7">
                     <Input
                       type="text"
+                      name="phone"
                       placeholder="Enter Phone number"
                       required
                     />
                   </div>
                   <div className="ContactUs-7">
-                    <Input type="text" placeholder="Enter Subject" required />
+                    <Input
+                      type="text"
+                      name="subject"
+                      placeholder="Enter Subject"
+                      required
+                    />
                   </div>
                   <div className="ContactUs-7" style={{ marginBottom: "0" }}>
                     <Textarea
                       className="custom-textarea"
+                      name="message"
                       placeholder="Enter message"
                       required
                     />
                   </div>
                 </CardContent>
                 <CardFooter>
-                  <button
-                    className="services-button"
-                    style={{ alignItems: "end" }}
-                  >
-                    Submit
-                  </button>
+                  <button className="services-button">Submit</button>
                 </CardFooter>
               </form>
             </Card>

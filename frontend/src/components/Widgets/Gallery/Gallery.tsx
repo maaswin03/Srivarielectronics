@@ -5,22 +5,22 @@ export default function Gallery() {
   const navigate = useNavigate();
   const data = [
     {
-      imageLink: "/images/gallery1.jpeg",
+      imageLink: "/images/gallery1.jpeg?w=600&format=webp",
     },
     {
-      imageLink: "/images/gallery2.jpeg",
+      imageLink: "/images/gallery2.jpeg?w=600&format=webp",
     },
     {
-      imageLink: "/images/gallery3.jpeg",
+      imageLink: "/images/gallery3.jpeg?w=600&format=webp",
     },
     {
-      imageLink: "/images/gallery4.jpeg",
+      imageLink: "/images/gallery4.jpeg?w=600&format=webp",
     },
     {
-      imageLink: "/images/gallery5.jpeg",
+      imageLink: "/images/gallery5.jpeg?w=600&format=webp",
     },
     {
-      imageLink: "/images/gallery6.jpeg",
+      imageLink: "/images/gallery6.jpeg?w=600&format=webp",
     },
   ];
 

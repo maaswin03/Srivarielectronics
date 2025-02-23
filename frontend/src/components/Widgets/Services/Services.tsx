@@ -18,9 +18,9 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-import image1 from "@/image/image1.jpg";
-import image2 from "@/image/image2.jpg";
-import image3 from "@/image/image3.jpg";
+import image1 from "@/image/image1.jpg?w=600&format=webp";
+import image2 from "@/image/image2.jpg?w=600&format=webp";
+import image3 from "@/image/image3.jpg?w=600&format=webp";
 
 export default function Services() {
   return (

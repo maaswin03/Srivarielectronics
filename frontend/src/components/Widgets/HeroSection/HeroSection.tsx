@@ -4,13 +4,28 @@ import GridPattern from "@/components/ui/grid-pattern";
 import WordRotate from "@/components/ui/word-rotate";
 import "./HeroSection.css";
 
-import image1 from "@/image/image1.jpg";
-import image2 from "@/image/image2.jpg";
-import image3 from "@/image/image3.jpg";
+import image1 from "@/image/image1.jpg?w=600&format=webp";
+import image2 from "@/image/image2.jpg?w=600&format=webp";
+import image3 from "@/image/image3.jpg?w=600&format=webp";
 
 const HeroSection: React.FC = () => {
   const images = [image1, image2, image3, image3];
   const [currentIndex, setCurrentIndex] = useState(0);
+  ``;
+
+  useEffect(() => {
+    // Preload only the first image for LCP optimization
+    const preloadLink = document.createElement("link");
+    preloadLink.rel = "preload";
+    preloadLink.as = "image";
+    preloadLink.href = image1;
+    preloadLink.type = "image/webp";
+    document.head.appendChild(preloadLink);
+
+    return () => {
+      document.head.removeChild(preloadLink);
+    };
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -45,9 +60,9 @@ const HeroSection: React.FC = () => {
           <p>
             A dedicated team specializing in industrial, commercial, and
             residential electrical solutions. We ensure reliable installations,
-            power management, and automation for a smarter tomorrow. As authorized
-            distributors of Nimbus lights, we offer a wide range of customizable
-            electrical products, including lights, fans, and more.
+            power management, and automation for a smarter tomorrow. As
+            authorized distributors of Nimbus lights, we offer a wide range of
+            customizable electrical products, including lights, fans, and more.
           </p>
           <button
             onClick={() =>
@@ -75,7 +90,12 @@ const HeroSection: React.FC = () => {
                 <div
                   key={index}
                   className={`slide ${index === currentIndex ? "active" : ""}`}
-                  style={{ backgroundImage: `url(${image})` }}
+                  style={{
+                    backgroundImage:
+                      index === currentIndex ? `url(${image})` : "none", // Only load active slide
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                  }}
                 ></div>
               ))}
               <div className="dots-container">

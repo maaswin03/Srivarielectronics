@@ -20,14 +20,6 @@ const Products = () => {
           Reliable and efficient lighting & electrical solutions for every
           space.
         </p>
-        <p id="hello12" style={{ marginBottom: "2%" }}>
-          <a
-            href="./brochure/srivarielectricals.pdf"
-            download="Nimbus_lights.pdf"
-          >
-            Download brochure &gt;
-          </a>
-        </p>
         <main className="products-grid">
           {Data.map((item, index) => (
             <div key={index} className="product-card">

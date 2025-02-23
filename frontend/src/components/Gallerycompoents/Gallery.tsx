@@ -3,32 +3,32 @@ import styles from "./Gallery.module.css";
 
 const images = [
   {
-    src: "/images/gallery1.jpeg",
+    src: "/images/gallery1.jpeg?w=600&format=webp",
     alt: "Image 1",
     description: "Beautiful landscape",
   },
   {
-    src: "/images/gallery2.jpeg",
+    src: "/images/gallery2.jpeg?w=600&format=webp",
     alt: "Image 2",
     description: "Stunning architecture",
   },
   {
-    src: "/images/gallery2.jpeg",
+    src: "/images/gallery2.jpeg?w=600&format=webp",
     alt: "Image 3",
     description: "Vibrant cityscape",
   },
   {
-    src: "/images/gallery1.jpeg",
+    src: "/images/gallery1.jpeg?w=600&format=webp",
     alt: "Image 4",
     description: "Serene nature",
   },
   {
-    src: "/images/gallery5.jpeg",
+    src: "/images/gallery5.jpeg?w=600&format=webp",
     alt: "Image 5",
     description: "Abstract art",
   },
   {
-    src: "/images/gallery4.jpeg",
+    src: "/images/gallery4.jpeg?w=600&format=webp",
     alt: "Image 6",
     description: "Colorful patterns",
   },
