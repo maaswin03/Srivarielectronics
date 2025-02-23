@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 import GridPattern from "@/components/ui/grid-pattern";
 import WordRotate from "@/components/ui/word-rotate";
-import { Link } from "react-scroll";
 import "./HeroSection.css";
 
 import image1 from "@/image/image1.jpg";
@@ -39,14 +38,14 @@ const HeroSection: React.FC = () => {
                 "RESIDENTIAL SERVICES",
                 "COMMERCIAL SERVICES",
                 "INDUSTRIAL SERVICES",
-                "AUTHORISED DISTRIBUTOR OF NIMBUS LIGHTS",
+                "AUTHORIZED DISTRIBUTOR OF NIMBUS LIGHTS",
               ]}
             />
           </h2>
           <p>
             A dedicated team specializing in industrial, commercial, and
             residential electrical solutions. We ensure reliable installations,
-            maintenance, and automation for a smarter tomorrow. As authorised
+            power management, and automation for a smarter tomorrow. As authorized
             distributors of Nimbus lights, we offer a wide range of customizable
             electrical products, including lights, fans, and more.
           </p>
@@ -61,9 +60,12 @@ const HeroSection: React.FC = () => {
             Get a Quote
           </button>
           <button id="hello1">
-            <Link to="services" smooth={true} duration={500} offset={-70}>
-              Learn More
-            </Link>
+            <a
+              href="./brochure/srivarielectricals.pdf"
+              download="Our_Products.pdf"
+            >
+              Download brochure
+            </a>
           </button>
         </div>
         <div className="herosection-2 herosection-5">

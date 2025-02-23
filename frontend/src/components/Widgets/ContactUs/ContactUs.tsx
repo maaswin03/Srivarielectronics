@@ -9,7 +9,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
-import { FaPhoneAlt, FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaPhoneAlt, FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import image1 from "@/image/image1.jpg";
 
@@ -25,6 +25,7 @@ export default function ContactUs() {
               <img
                 src={image1}
                 className="w-full h-auto max-h-60 object-cover rounded-t-xl"
+                alt="contact Us"
               />
               <CardHeader>
                 <CardTitle>Sri Vari Electricals</CardTitle>
@@ -38,7 +39,7 @@ export default function ContactUs() {
                 <div className="ContactUs-10">
                   <ul>
                     <li>
-                      <a href="tel:+919843079070">
+                      <a href="tel:+919843079070" aria-label="Phone">
                         <div className="icon-box">
                           <FaPhoneAlt size={20} className="text-white" />
                         </div>
@@ -46,7 +47,10 @@ export default function ContactUs() {
                     </li>
 
                     <li>
-                      <a href="mailto:srivari.electricals24@gmail.com">
+                      <a
+                        href="mailto:srivari.electricals24@gmail.com"
+                        aria-label="Email"
+                      >
                         <div className="icon-box">
                           <IoMail size={20} className="text-white" />
                         </div>
@@ -58,6 +62,7 @@ export default function ContactUs() {
                         href="https://www.facebook.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Facebook"
                       >
                         <div className="icon-box">
                           <FaFacebook size={20} className="text-white" />
@@ -69,6 +74,7 @@ export default function ContactUs() {
                         href="https://www.instagram.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Instagram"
                       >
                         <div className="icon-box">
                           <FaInstagram size={20} className="text-white" />
@@ -80,9 +86,23 @@ export default function ContactUs() {
                         href="https://www.youtube.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
+                        aria-label="Youtube"
                       >
                         <div className="icon-box">
                           <FaYoutube size={20} className="text-white" />
+                        </div>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.youtube.com/srivarielectricals"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Youtube"
+                      >
+                        <div className="icon-box">
+                          <FaLinkedin size={20} className="text-white" />
                         </div>
                       </a>
                     </li>
@@ -95,7 +115,7 @@ export default function ContactUs() {
             <Card>
               <CardHeader>
                 <CardTitle>Request A Consultation</CardTitle>
-              </CardHeader>{" "}
+              </CardHeader>
               <form>
                 <CardContent>
                   <div className="ContactUs-7">

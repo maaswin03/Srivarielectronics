@@ -62,7 +62,7 @@ const Footer = () => {
             <h1>Services</h1>
             <ul>
               <li>
-                <Link to="services" smooth={true} duration={500} offset={-70}>
+                <Link to="/#services" smooth={true} duration={500} offset={-70}>
                   Commercial
                 </Link>
               </li>
@@ -84,6 +84,7 @@ const Footer = () => {
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250639.21365611948!2d76.65855829453125!3d11.020783300000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8592ab939726b%3A0xa6904ca6d25ea3e9!2sSrivari%20Electricals!5e0!3m2!1sen!2sin!4v1739263402778!5m2!1sen!2sin"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
+              title="location"
             ></iframe>
           </div>
         </div>

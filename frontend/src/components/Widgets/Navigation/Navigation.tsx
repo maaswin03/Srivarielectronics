@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./Navigation.css";
 
@@ -6,12 +6,26 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen((prev) => !prev);
+    setIsMenuOpen((prev) => {
+      document.body.classList.toggle("menu-open", !prev);
+      return !prev;
+    });
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth >= 1024) {
+        setIsMenuOpen(false);
+        document.body.classList.remove("menu-open");
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
-      {/* <TopBar /> */}
       <div className="navbar-1">
         <div className="navbar-2 navbar-3">
           <a href="/" id="Title">
@@ -20,38 +34,24 @@ function Navbar() {
         </div>
 
         <div className="navbar-2 navbar-3 navbar-5">
-          <Link to="hero" smooth={true} duration={500} offset={-70}>
-            Home
-          </Link>
-
-          <Link to="services" smooth={true} duration={500} offset={-70}>
-            Services
-          </Link>
-
-          <Link to="products" smooth={true} duration={500} offset={-70}>
-            Products
-          </Link>
-
-          <Link to="about" smooth={true} duration={500} offset={-70}>
-            About Us
-          </Link>
-
-          <Link to="gallery" smooth={true} duration={500} offset={-70}>
-            Gallery
-          </Link>
-
-          <Link to="contact" smooth={true} duration={500} offset={-70}>
-            Contact
-          </Link>
+          {["services", "aboutUs" ,"products", "gallery", "contactUs"].map(
+            (section) => (
+              <Link
+                key={section}
+                to={section}
+                smooth={true}
+                duration={900}
+                offset={-70}
+              >
+                {section.charAt(0).toUpperCase() + section.slice(1)}
+              </Link>
+            )
+          )}
         </div>
       </div>
 
       <header>
-        <div
-          className="hamburger-menu"
-          onClick={toggleMenu}
-          style={{ display: "flex" }}
-        >
+        <div className="hamburger-menu" onClick={toggleMenu}>
           <div>
             <div className={`bar ${isMenuOpen ? "animate" : ""}`}></div>
             <div className={`bar ${isMenuOpen ? "animate" : ""}`}></div>
@@ -60,36 +60,21 @@ function Navbar() {
         </div>
         <nav className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
           <ul>
-            <li>
-              <Link to="hero" smooth={true} duration={500} offset={-70}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="services" smooth={true} duration={500} offset={-70}>
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link to="products" smooth={true} duration={500} offset={-70}>
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link to="about" smooth={true} duration={500} offset={-70}>
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link to="gallery" smooth={true} duration={500} offset={-70}>
-                Gallery
-              </Link>
-            </li>
-            <li>
-              <Link to="contact" smooth={true} duration={500} offset={-70}>
-                Contact
-              </Link>
-            </li>
+            {["hero", "services", "products", "about", "gallery", "contact"].map(
+              (section) => (
+                <li key={section}>
+                  <Link
+                    to={section}
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {section.charAt(0).toUpperCase() + section.slice(1)}
+                  </Link>
+                </li>
+              )
+            )}
           </ul>
         </nav>
       </header>

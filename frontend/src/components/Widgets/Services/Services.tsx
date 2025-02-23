@@ -34,6 +34,7 @@ export default function Services() {
               <img
                 src={image1}
                 className="w-full h-auto max-h-60 object-cover rounded-t-xl"
+                alt="Commercial services"
               />
 
               <CardHeader>
@@ -69,7 +70,6 @@ export default function Services() {
                         Our Services Include:
                       </p>
                       <ul className="list-disc ml-5 text-white text-sm">
-                        <li className="mb-1">Maintenance and fault finding</li>
                         <li className="mb-1">
                           Testing Inspection and Electrical Reports
                         </li>
@@ -100,6 +100,7 @@ export default function Services() {
               <img
                 src={image2}
                 className="w-full h-auto max-h-60 object-cover rounded-t-xl"
+                alt="Industrial services"
               />
 
               <CardHeader>
@@ -109,7 +110,7 @@ export default function Services() {
               <CardContent>
                 <p>
                   Our expert team delivers reliable electrical installations,
-                  automation, and maintenance for factories, warehouses, and
+                  automation, and management for factories, warehouses, and
                   plants, ensuring uninterrupted operations.
                 </p>
               </CardContent>
@@ -123,9 +124,9 @@ export default function Services() {
                       <AlertDialogTitle>Industrial Services</AlertDialogTitle>
                       <AlertDialogDescription>
                         Our expert team delivers reliable electrical
-                        installations, automation, and maintenance for
+                        installations, automation, and management for
                         factories, warehouses, and plants, ensuring
-                        uninterrupted operations.{" "}
+                        uninterrupted operations.
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">
@@ -136,7 +137,6 @@ export default function Services() {
                         Our Services Include:
                       </p>
                       <ul className="list-disc ml-5 text-white text-sm">
-                        <li className="mb-1">Maintenance and fault finding</li>
                         <li className="mb-1">Dimmers & Transformers</li>
                         <li className="mb-1">
                           Portable Appliance Testing (PAT)
@@ -170,6 +170,7 @@ export default function Services() {
               <img
                 src={image3}
                 className="w-full h-auto max-h-60 object-cover rounded-t-xl"
+                alt="Residential Services"
               />
 
               <CardHeader>

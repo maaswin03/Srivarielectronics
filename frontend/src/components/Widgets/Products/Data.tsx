@@ -43,7 +43,7 @@ export const Data = [
   },
   {
     name: "led_strip_light",
-    src: "https://images.unsplash.com/photo-1597022431459-12dbd7b8a386",
+    src: "https://images.pexels.com/photos/914682/pexels-photo-914682.jpeg",
     title: "LED Strip Light",
     text: "Versatile LED strip lighting perfect for creative home, office, and outdoor decor setups.",
   },
