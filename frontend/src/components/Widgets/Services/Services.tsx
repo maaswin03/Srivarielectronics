@@ -18,9 +18,9 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-import image1 from "@/image/image1.jpg?w=600&format=webp";
-import image2 from "@/image/image2.jpg?w=600&format=webp";
-import image3 from "@/image/image3.jpg?w=600&format=webp";
+import image1 from "/images/Services/CommercialService.webp";
+import image2 from "/images/Services/IndustrialServices.webp";
+import image3 from "/images/Services/ResidentialServices.webp";
 
 export default function Services() {
   return (
@@ -43,9 +43,10 @@ export default function Services() {
               </CardHeader>
               <CardContent>
                 <p>
-                  We provide top-tier electrical solutions for businesses,
-                  ensuring safety, efficiency, and seamless power management for
-                  offices, shops, and malls.
+                  As Nimbus Lights' authorized distributors and light fitting
+                  specialists, we proudly deliver top-tier electrical solutions,
+                  ensuring safe, efficient, and innovative lighting and reliable
+                  power management solutions for businesses and homes.
                 </p>
               </CardContent>
               <CardFooter>
@@ -57,9 +58,11 @@ export default function Services() {
                     <AlertDialogHeader>
                       <AlertDialogTitle>Commercial Services</AlertDialogTitle>
                       <AlertDialogDescription>
-                        We provide top-tier electrical solutions for businesses,
-                        ensuring safety, efficiency, and seamless power
-                        management for offices, shops, and malls.
+                        As Nimbus Lights' authorized distributors and light
+                        fitting specialists, we proudly deliver top-tier
+                        electrical solutions, ensuring safe, efficient, and
+                        innovative lighting and reliable power management
+                        solutions for businesses and homes.
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">
@@ -109,9 +112,11 @@ export default function Services() {
               </CardHeader>
               <CardContent>
                 <p>
-                  Our expert team delivers reliable electrical installations,
-                  automation, and management for factories, warehouses, and
-                  plants, ensuring uninterrupted operations.
+                  As Nimbus Lights' authorized distributors and light fitting
+                  specialists, our expert team ensures reliable electrical
+                  installations, automation, and management for factories,
+                  warehouses, and plants, providing seamless and efficient
+                  operations
                 </p>
               </CardContent>
               <CardFooter>
@@ -123,10 +128,11 @@ export default function Services() {
                     <AlertDialogHeader>
                       <AlertDialogTitle>Industrial Services</AlertDialogTitle>
                       <AlertDialogDescription>
-                        Our expert team delivers reliable electrical
-                        installations, automation, and management for
-                        factories, warehouses, and plants, ensuring
-                        uninterrupted operations.
+                        As Nimbus Lights' authorized distributors and light
+                        fitting specialists, our expert team ensures reliable
+                        electrical installations, automation, and management for
+                        factories, warehouses, and plants, providing seamless
+                        and efficient operations
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">
@@ -179,9 +185,10 @@ export default function Services() {
               </CardHeader>
               <CardContent>
                 <p>
-                  We offer safe, efficient, and customized electrical solutions,
-                  including wiring, lighting, and automation, enhancing comfort
-                  and energy efficiency in homes.
+                  As Nimbus Lights' authorized distributors and light fitting
+                  specialists, we provide safe, efficient, and customized
+                  electrical solutions, including wiring, lighting, and
+                  automation, to enhance comfort and energy efficiency in homes.
                 </p>
               </CardContent>
               <CardFooter>
@@ -193,9 +200,11 @@ export default function Services() {
                     <AlertDialogHeader>
                       <AlertDialogTitle>Residential Services</AlertDialogTitle>
                       <AlertDialogDescription>
-                        We offer safe, efficient, and customized electrical
-                        solutions, including wiring, lighting, and automation,
-                        enhancing comfort and energy efficiency in homes.
+                        As Nimbus Lights' authorized distributors and light
+                        fitting specialists, we provide safe, efficient, and
+                        customized electrical solutions, including wiring,
+                        lighting, and automation, to enhance comfort and energy
+                        efficiency in homes.
                       </AlertDialogDescription>
                     </AlertDialogHeader>
                     <div className="mt-0">

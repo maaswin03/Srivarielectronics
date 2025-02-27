@@ -17,7 +17,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import image1 from "@/image/image1.jpg?w=600&format=webp";
+import image1 from "/images/Services/ResidentialServices.webp";
 
 export default function ContactUs() {
   return (
