@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     padding: 0rem 4rem 0rem 4rem;
+    margin-top: 2%;
 }
 
 .products-section h1 {
@@ -12,7 +13,6 @@
     letter-spacing: 0.7px;
     color: orangered;
     text-align: center;
-    margin-bottom: 1%;
 }
 
 
@@ -23,7 +23,7 @@
     letter-spacing: 0.7px;
     color: white;
     text-align: center;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 #hello12 {
@@ -33,7 +33,7 @@
 
 @media (min-width: 768px) {
     .products-section {
-        padding: 0rem 4rem 0rem 4rem;
+        padding: 0rem rem 0rem 4rem;
     }
 }
 
@@ -102,13 +102,17 @@
 }
 
 @media (max-width: 768px) {
+    .products-section{
+        margin-top: 5%;
+    }
+
     .products-section h1 {
         font-size: 25px;
     }
 
     .products-section p {
-        font-size: 13px;
-        margin-bottom: 1%;
+        font-size: 15px;
+        margin-bottom: 5%;
     }
 
     #hello12 {
@@ -141,4 +145,15 @@
 .products2 p {
     text-align: right; /* Align the paragraph to the right */
     margin-right: 0; /* Ensure it's flush to the right */
+}
+
+
+@media (max-width: 768px) {
+    .products2 {
+        width: 100%;
+    }
+
+    .products2 p{
+        margin-bottom: 0;
+    }
 }

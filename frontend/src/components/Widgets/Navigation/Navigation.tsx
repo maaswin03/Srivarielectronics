@@ -60,7 +60,7 @@ function Navbar() {
         </div>
         <nav className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
           <ul>
-            {["hero", "services", "products", "about", "gallery", "contact"].map(
+            {["services", "aboutUs" ,"products", "gallery", "contactUs"].map(
               (section) => (
                 <li key={section}>
                   <Link

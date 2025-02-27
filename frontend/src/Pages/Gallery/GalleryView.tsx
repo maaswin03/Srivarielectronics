@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import styles from "./GalleryView.module.css";
 import Header from "@/components/Gallerycompoents/Header";
 import Gallery from "@/components/Gallerycompoents/Gallery";
-import Footer from "@/components/Widgets/Footer/Footer";
+// import Footer from "@/components/Widgets/Footer/Footer";
 
 export default function GalleryView() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -24,7 +24,7 @@ export default function GalleryView() {
     <div className={styles.app}>
       <Header />
       <Gallery />
-      <Footer />
+      {/* <Footer /> */}
       {showScrollTop && (
         <button className={styles.scrollTop} onClick={scrollToTop}>
           ↑

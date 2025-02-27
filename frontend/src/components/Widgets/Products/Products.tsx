@@ -16,7 +16,7 @@ const Products = () => {
     <>
       <section className="products-section">
         <h1>Our Products</h1>
-        <p style={{ marginBottom: "2%" }}>
+        <p>
           Reliable and efficient lighting & electrical solutions for every
           space.
         </p>

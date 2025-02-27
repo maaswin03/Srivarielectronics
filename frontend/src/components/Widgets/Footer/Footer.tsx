@@ -32,17 +32,12 @@ const Footer = () => {
             <h1>Quick Links</h1>
             <ul>
               <li>
-                <Link to="hero" smooth={true} duration={500} offset={-70}>
-                  Home
-                </Link>
-              </li>
-              <li>
                 <Link to="services" smooth={true} duration={500} offset={-70}>
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="about" smooth={true} duration={500} offset={-70}>
+                <Link to="aboutUs" smooth={true} duration={500} offset={-70}>
                   About Us
                 </Link>
               </li>
@@ -52,8 +47,8 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="contact" smooth={true} duration={500} offset={-70}>
-                  Contact
+                <Link to="contactUs" smooth={true} duration={500} offset={-70}>
+                  Contact Us
                 </Link>
               </li>
             </ul>
@@ -62,7 +57,7 @@ const Footer = () => {
             <h1>Services</h1>
             <ul>
               <li>
-                <Link to="/#services" smooth={true} duration={500} offset={-70}>
+                <Link to="services" smooth={true} duration={500} offset={-70}>
                   Commercial
                 </Link>
               </li>
@@ -89,7 +84,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="Footer-15">
-          &copy; {new Date().getFullYear()} Sri Vari Electronics. All rights reserved. Designed by Protowiz private limited
+          <p>&copy; {new Date().getFullYear()} Sri Vari Electronics. All rights reserved. Designed by Protowiz private limited</p>
         </div>
       </div>
     </>

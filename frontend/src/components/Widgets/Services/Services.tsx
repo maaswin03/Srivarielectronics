@@ -57,7 +57,7 @@ export default function Services() {
                   <AlertDialogContent>
                     <AlertDialogHeader>
                       <AlertDialogTitle>Commercial Services</AlertDialogTitle>
-                      <AlertDialogDescription>
+                      <AlertDialogDescription className="text-left">
                         As Nimbus Lights' authorized distributors and light
                         fitting specialists, we proudly deliver top-tier
                         electrical solutions, ensuring safe, efficient, and
@@ -115,8 +115,7 @@ export default function Services() {
                   As Nimbus Lights' authorized distributors and light fitting
                   specialists, our expert team ensures reliable electrical
                   installations, automation, and management for factories,
-                  warehouses, and plants, providing seamless and efficient
-                  operations
+                  warehouses, and plants providing efficient operations.
                 </p>
               </CardContent>
               <CardFooter>
@@ -127,7 +126,7 @@ export default function Services() {
                   <AlertDialogContent>
                     <AlertDialogHeader>
                       <AlertDialogTitle>Industrial Services</AlertDialogTitle>
-                      <AlertDialogDescription>
+                      <AlertDialogDescription className="text-left">
                         As Nimbus Lights' authorized distributors and light
                         fitting specialists, our expert team ensures reliable
                         electrical installations, automation, and management for
@@ -199,7 +198,7 @@ export default function Services() {
                   <AlertDialogContent>
                     <AlertDialogHeader>
                       <AlertDialogTitle>Residential Services</AlertDialogTitle>
-                      <AlertDialogDescription>
+                      <AlertDialogDescription className="text-left">
                         As Nimbus Lights' authorized distributors and light
                         fitting specialists, we provide safe, efficient, and
                         customized electrical solutions, including wiring,

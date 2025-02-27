@@ -34,7 +34,7 @@ body {
     font-weight: 300;
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.7px;
-    font-size: 16px;
+    font-size: 15px;
     word-spacing: 3px;
     color: white;
     margin-top: 1%;
@@ -124,7 +124,7 @@ body {
         width: 95%;
         flex-wrap: wrap;
         margin: auto;
-        margin-top: 0%;
+        margin-top: 5%;
         height: 800px;
     }
 
@@ -135,34 +135,19 @@ body {
     }
 
     .herosection-3 h1 {
-        font-size: 30px;
-        line-height: 40px;
+        line-height: 60px;
+        font-size: 40px;
     }
 
-    .herosection-3 p {
-        font-size: 13px;
-        line-height: 20px;
-    }
-
-    .herosection-3 button {
-        padding: 7px;
-        margin-top: 5%;
-        margin-bottom: 0;
-        font-size: 13px;
-    }
 
     .herosection-4 {
         border-radius: 0;
     }
 
-    #hello1 {
-        padding: 7px;
-        font-size: 13px;
-    }
-
     .herosection-5 {
         width: 95%;
         margin: auto;
+        margin-top: 5%;
     }
 
 }
