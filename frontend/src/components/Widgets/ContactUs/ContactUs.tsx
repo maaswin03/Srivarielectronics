@@ -123,7 +123,7 @@ export default function ContactUs() {
                 <CardTitle>Request A Consultation</CardTitle>
               </CardHeader>
               <form
-                action="https://formsubmit.co/maaswin03@gmail.com"
+                action="https://formsubmit.co/srivari.electricals24@gmail.com"
                 method="POST"
               >
                 <CardContent>
