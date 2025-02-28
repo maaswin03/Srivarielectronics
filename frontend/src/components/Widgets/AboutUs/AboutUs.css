@@ -2,7 +2,7 @@
     width: 95%;
     margin: auto;
     display: flex;
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .AboutUs-2 {
@@ -76,7 +76,7 @@
 @media (max-width: 768px) {
     .AboutUs-1{
         flex-wrap: wrap;
-        margin-top: 10%;
+        margin-top: 5%;
     }
     .AboutUs-2{
         width: 100%;

@@ -1,8 +1,11 @@
 import "./Products.css";
 import { Data } from "./Data";
 import { Image } from "./Image";
+import { useNavigate } from "react-router-dom";
 
 const Products = () => {
+  const navigate = useNavigate();
+
   const handleDownload = () => {
     const pdfUrl = "./brochure/srivarielectricals.pdf";
     const link = document.createElement("a");
@@ -12,14 +15,18 @@ const Products = () => {
     link.click();
     document.body.removeChild(link);
   };
+
   return (
     <>
       <section className="products-section">
         <h1>Our Products</h1>
-        <p>
-          Reliable and efficient lighting & electrical solutions for every
-          space.
-        </p>
+        <p>Reliable and efficient lighting & electrical solutions for every space.</p>
+        <div className="Gallery-3">
+          <button className="services-button" onClick={handleDownload}>
+            Download brochure
+          </button>
+        </div>
+
         <main className="products-grid">
           {Data.map((item, index) => (
             <div key={index} className="product-card">
@@ -32,19 +39,18 @@ const Products = () => {
               <div className="product-content">
                 <h5>{item.title}</h5>
                 <h6>{item.text}</h6>
+                {index === Data.length - 1 && (
+                  <button 
+                    className="services-button" 
+                    onClick={() => navigate("/Fans/Gallery")}
+                  >
+                    View More
+                  </button>
+                )}
               </div>
             </div>
           ))}
         </main>
-        <div className="products1">
-          <div className="products2">
-            <h1>Learn More</h1>
-            <p>
-            Explore our top lighting & electrical solutions. Download our brochure for details.
-            </p>
-            <button className="services-button" onClick={handleDownload} >Download brochure</button>
-          </div>
-        </div>
       </section>
     </>
   );

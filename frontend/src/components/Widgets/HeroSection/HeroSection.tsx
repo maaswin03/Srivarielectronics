@@ -55,7 +55,7 @@ const HeroSection: React.FC = () => {
                 "RESIDENTIAL SERVICES",
                 "COMMERCIAL SERVICES",
                 "INDUSTRIAL SERVICES",
-                "AUTHORIZED DISTRIBUTOR OF NIMBUS LIGHTS",
+                "A.D OF NIMBUS LIGHTS",
               ]}
             />
           </h2>

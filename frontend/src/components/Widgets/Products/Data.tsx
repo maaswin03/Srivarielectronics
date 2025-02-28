@@ -65,18 +65,17 @@ export const Data = [
     title: "Rope Light",
     text: "Flexible and decorative lighting for ambiance.",
   },
-  {
-    name: "profile_light",
-    src: "/images/Products/Product1.webp",
-    title: "Profile",
-    text: "Sleek aluminum profile lighting for modern spaces.",
-  },
   // {
-  //   name: "custom_ceiling_fan",
+  //   name: "profile_light",
   //   src: "/images/Products/Product1.webp",
-  //   title: "Fansee (Customized Ceiling Fan)",
-  //   text: "Stylish and customizable ceiling fans.",
+  //   title: "Profile",
+  //   text: "Sleek aluminum profile lighting for modern spaces.",
   // },
+  {
+    name: "custom_ceiling_fan",
+    src: "/images/Fans/Fans5.webp",
+    title: "Fansee (Customized Ceiling Fan)",
+  },
   // {
   //   name: "custom_hvls_fan",
   //   src: "/images/Products/Product1.webp",

@@ -1,14 +1,15 @@
 import { useState, useEffect } from "react";
 import styles from "./GalleryView.module.css";
-import Header from "@/components/Gallerycompoents/Header";
-import Gallery from "@/components/Gallerycompoents/Gallery";
-// import Footer from "@/components/Widgets/Footer/Footer";
+import Header from "@/components/FansGalleryComponent/Header";
+import Gallery from "@/components/FansGalleryComponent/Gallery";
 
-export default function GalleryView() {
+export default function FansGalleryView() {
   const [showScrollTop, setShowScrollTop] = useState(false);
 
   useEffect(() => {
+
     window.scrollTo(0, 0);
+    
     const handleScroll = () => {
       setShowScrollTop(window.pageYOffset > 300);
     };
@@ -24,7 +25,7 @@ export default function GalleryView() {
   return (
     <div className={styles.app}>
       <Header />
-      <Gallery />
+      <Gallery/>
       {/* <Footer /> */}
       {showScrollTop && (
         <button className={styles.scrollTop} onClick={scrollToTop}>
