@@ -81,7 +81,6 @@ export default function Services() {
                         <li className="mb-1">Fuse Boards changes</li>
                         <li className="mb-1">Commercial Lamp Replacements</li>
                         <li className="mb-1">New Installations</li>
-                        <li className="mb-1">RCD Faults</li>
                         <li className="mb-1">Re-wires</li>
                       </ul>
                       <p className="mt-4 text-sm text-white">
@@ -153,7 +152,6 @@ export default function Services() {
                         <li className="mb-1">Emergency lighting</li>
                         <li className="mb-1">Commercial Lamp Replacements</li>
                         <li className="mb-1">New Installations</li>
-                        <li className="mb-1">RCD Faults</li>
                         <li className="mb-1">Re-wires</li>
                       </ul>
                       <p className="mt-4 text-sm text-white">

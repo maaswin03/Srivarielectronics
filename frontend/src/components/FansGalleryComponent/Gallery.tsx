@@ -5,67 +5,67 @@ const images1 = [
   {
     src: "/images/Fans/Fans1.webp",
     alt: "Image 1",
-    description: "Modern LED lighting installation",
-  },
-  {
-    src: "/images/Fans/Fans2.webp",
-    alt: "Image 2",
-    description: "High-efficiency ceiling fan",
-  },
-  {
-    src: "/images/Fans/Fans3.webp",
-    alt: "Image 3",
-    description: "Industrial HVLS fan for large spaces",
-  },
-  {
-    src: "/images/Fans/Fans4.webp",
-    alt: "Image 4",
-    description: "COB downlights for bright interiors",
-  },
-  {
-    src: "/images/Fans/Fans5.webp",
-    alt: "Image 5",
-    description: "Magnetic track lighting system",
-  },
-  {
-    src: "/images/Fans/Fans6.webp",
-    alt: "Image 6",
-    description: "Smart lighting automation setup",
-  },
-  {
-    src: "/images/Fans/Fans7.webp",
-    alt: "Image 7",
-    description: "Decorative panel lights",
-  },
-  {
-    src: "/images/Fans/Fans8.webp",
-    alt: "Image 8",
-    description: "Outdoor floodlight installation",
-  },
-  {
-    src: "/images/Fans/Fans9.webp",
-    alt: "Image 9",
-    description: "Energy-efficient street lighting",
-  },
-  {
-    src: "/images/Fans/Fans10.webp",
-    alt: "Image 10",
-    description: "LED strip lights for ambient lighting",
-  },
-  {
-    src: "/images/Fans/Fans11.webp",
-    alt: "Image 11",
-    description: "Smart home lighting controls",
-  },
-  {
-    src: "/images/Fans/Fans12.webp",
-    alt: "Image 12",
-    description: "Industrial high bay lighting setup",
+    description: "Brown luminaire ceiling Fan",
   },
   {
     src: "/images/Fans/Fans13.webp",
+    alt: "Image 2",
+    description: "Crystal cascade ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans2.webp",
+    alt: "Image 3",
+    description: "Dazzling delight ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans3.webp",
+    alt: "Image 4",
+    description: "Icy whirlwind ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans4.webp",
+    alt: "Image 5",
+    description: "Ninja whirl ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans5.webp",
+    alt: "Image 6",
+    description: "Rosdorf Park Houstyn Dimmable Crystal Ceiling Fan",
+  },
+  {
+    src: "/images/Fans/Fans6.webp",
+    alt: "Image 7",
+    description: "Smokey serenade ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans7.webp",
+    alt: "Image 8",
+    description: "Snowy frost ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans8.webp",
+    alt: "Image 9",
+    description: "Supernova Waves ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans9.webp",
+    alt: "Image 10",
+    description: "Talkative breeze ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans10.webp",
+    alt: "Image 11",
+    description: "Walnut wonder ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans11.webp",
+    alt: "Image 12",
+    description: "White comet ceiling fan",
+  },
+  {
+    src: "/images/Fans/Fans12.webp",
     alt: "Image 13",
-    description: "Low-voltage decorative lighting",
+    description: "Wooden winds ceiling fan",
   },
 ];
 

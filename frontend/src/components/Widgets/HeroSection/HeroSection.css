@@ -1,14 +1,15 @@
-body {
-    background: linear-gradient(145deg, #1e2024, #23272b);
-}
+/* .herosection {
+    background-color: rgb(74, 74, 74);
+} */
 
 .herosection-1 {
     width: 90%;
     margin: auto;
-    height: 600px;
     display: flex;
     align-items: center;
     gap: 4%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 
 .herosection-2 {
@@ -124,8 +125,8 @@ body {
         width: 95%;
         flex-wrap: wrap;
         margin: auto;
-        margin-top: 10%;
-        height: 900px;
+        margin-top: 5%;
+        /* height: 900px; */
     }
 
     .herosection-3 {
@@ -135,8 +136,13 @@ body {
     }
 
     .herosection-3 h1 {
-        line-height: 60px;
-        font-size: 40px;
+        line-height: 50px;
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .herosection-3 p{
+        margin-bottom: 2%;
     }
 
 
@@ -147,7 +153,12 @@ body {
     .herosection-5 {
         width: 95%;
         margin: auto;
-        margin-top: 5%;
+        margin-top: 10%;
+    }
+
+    #hello{
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
 }

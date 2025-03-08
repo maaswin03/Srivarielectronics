@@ -74,7 +74,7 @@ export const Data = [
   {
     name: "custom_ceiling_fan",
     src: "/images/Fans/Fans5.webp",
-    title: "Fansee (Customized Ceiling Fan)",
+    title: "Customized Ceiling Fan",
   },
   // {
   //   name: "custom_hvls_fan",

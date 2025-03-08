@@ -17,7 +17,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
-import image1 from "/images/Services/ResidentialServices.webp";
+import image1 from "/images/Gallery/Gallery23.webp";
 
 export default function ContactUs() {
   return (
@@ -102,7 +102,7 @@ export default function ContactUs() {
 
                     <li>
                       <a
-                        href="https://www.youtube.com/srivarielectricals"
+                        href="https://www.linkedin.com/srivarielectricals"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Youtube"

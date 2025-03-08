@@ -5,7 +5,7 @@ export default function Gallery() {
   const navigate = useNavigate();
   const data = [
     {
-      imageLink: "/images/gallery1.jpeg",
+      imageLink: "/images/Gallery/Gallery1.webp",
     },
     {
       imageLink: "/images/gallery2.jpeg",
@@ -20,7 +20,7 @@ export default function Gallery() {
       imageLink: "/images/gallery5.jpeg",
     },
     {
-      imageLink: "/images/gallery6.jpeg",
+      imageLink: "/images/Gallery/Gallery4.webp",
     },
   ];
 
