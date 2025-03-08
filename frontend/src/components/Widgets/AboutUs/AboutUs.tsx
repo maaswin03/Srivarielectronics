@@ -1,6 +1,6 @@
 import "./AboutUs.css";
 import HeroVideoDialog from "@/components/ui/hero-video-dialog";
-import image1 from "/images/Services/ResidentialServices.webp";
+import image1 from "/images/Gallery/Gallery12.webp";
 
 export default function AboutUs() {
   return (

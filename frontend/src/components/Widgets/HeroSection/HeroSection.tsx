@@ -157,7 +157,7 @@ const HeroSection: React.FC = () => {
                 font-size: 20px;
                 cursor: pointer;
                 z-index: 10;
-                opacity: 0.8;
+                opacity: 0.6;
               }
               .prev-btn {
                 left:10px;
