@@ -73,7 +73,7 @@ export const Data = [
   // },
   {
     name: "custom_ceiling_fan",
-    src: "/images/Fans/Fans5.webp",
+    src: "/images/Fans/fansdemo.jpeg",
     title: "Customized Ceiling Fan",
   },
   // {
