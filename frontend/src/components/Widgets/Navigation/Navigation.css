@@ -89,6 +89,7 @@ header {
         display: block;
         cursor: pointer;
         padding: 10px;
+        padding-left: 20px;
     }
 
     .bar {
@@ -122,6 +123,7 @@ header {
         width: 50%;
         height: 100vh;
         z-index: 1000;
+        padding-left: 10px;
     }
 
     .mobile-menu.active {
