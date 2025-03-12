@@ -34,7 +34,7 @@ export default function Gallery() {
             className="services-button"
             onClick={() => navigate("/Gallery")}
           >
-            Read More
+            View More
           </button>
         </div>
       </div>

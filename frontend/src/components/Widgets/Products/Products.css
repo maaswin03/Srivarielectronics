@@ -100,6 +100,22 @@
     text-align: left;
 }
 
+
+.product-content button{
+    background-color: orangered;
+    padding: 10px;
+    margin-top: 3%;
+    border-radius: 5px;
+    font-family: Montserrat, sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.7px;
+    color: white;
+}
+
+.product-content button:hover {
+    opacity: 0.8;
+}
+
 @media (max-width: 768px) {
     .products-section {
         width: 90%;
@@ -148,6 +164,8 @@
     margin-right: 0;
     /* Ensure it's flush to the right */
 }
+
+
 
 
 @media (max-width: 768px) {

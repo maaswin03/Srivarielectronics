@@ -44,12 +44,13 @@
 
 .herosection-3 button {
     background-color: orangered;
-    padding: 10px;
+    padding: 11px;
     margin-top: 3%;
     border-radius: 5px;
     font-family: Montserrat, sans-serif;
     font-size: 15px;
     letter-spacing: 0.7px;
+    color: white;
 }
 
 .herosection-3 button:hover {

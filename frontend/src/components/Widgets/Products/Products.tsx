@@ -41,7 +41,6 @@ const Products = () => {
                 <h6>{item.text}</h6>
                 {index === Data.length - 1 && (
                   <button 
-                    className="services-button" 
                     onClick={() => navigate("/Fans/Gallery")}
                   >
                     View More

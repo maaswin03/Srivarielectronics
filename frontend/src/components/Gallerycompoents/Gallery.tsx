@@ -5,7 +5,7 @@ const images2 = [
   {
     src: "/images/Gallery/Gallery1.webp",
     alt: "Image 1",
-    description: "Modern LED lighting installation",
+    description: "Industrial HVLS fan for large spaces",
   },
   {
     src: "/images/Gallery/Gallery2.webp",
@@ -15,7 +15,7 @@ const images2 = [
   {
     src: "/images/Gallery/Gallery3.webp",
     alt: "Image 3",
-    description: "Industrial HVLS fan for large spaces",
+    description: "Modern Fan & lighting installation",
   },
   {
     src: "/images/Gallery/Gallery4.webp",
@@ -23,7 +23,7 @@ const images2 = [
     description: "COB downlights for bright interiors",
   },
   {
-    src: "/images/Gallery/Gallery5.webp",
+    src: "/images/Gallery/Gallery5.jpeg",
     alt: "Image 5",
     description: "Magnetic track lighting system",
   },
@@ -110,7 +110,7 @@ const images2 = [
   {
     src: "/images/Gallery/Gallery22.webp",
     alt: "Image 22",
-    description: "High-performance SMPS units",
+    description: "Subtle lighting outlining wall designs",
   },
   {
     src: "/images/Gallery/Gallery23.webp",
