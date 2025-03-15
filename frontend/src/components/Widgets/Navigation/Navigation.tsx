@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./Navigation.css";
+import image1 from "/images/company.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -29,6 +30,7 @@ function Navbar() {
       <div className="navbar-1">
         <div className="navbar-2 navbar-3">
           <a href="/" id="Title">
+            {/* <img src={image1}></img> */}
             Sri Vari Electricals
           </a>
         </div>

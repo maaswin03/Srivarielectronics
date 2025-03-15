@@ -8,6 +8,7 @@ import ContactUs from "@/components/Widgets/ContactUs/ContactUs";
 import Footer from "@/components/Widgets/Footer/Footer";
 import Products from "@/components/Widgets/Products/Products";
 import { useState, useEffect } from "react";
+import AboutUsSection from "@/components/Widgets/Aboutfounder/AboutFounder";
 
 function Home() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -43,6 +44,9 @@ function Home() {
         </div>
         <div id="gallery">
           <Gallery />
+        </div>
+        <div>
+          <AboutUsSection/>
         </div>
         <div id="contactUs">
           <ContactUs />
