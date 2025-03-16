@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import "./Navigation.css";
-// import image1 from "/images/company.png";
+import image1 from "/images/company.png";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -30,13 +30,12 @@ function Navbar() {
       <div className="navbar-1">
         <div className="navbar-2 navbar-3">
           <a href="/" id="Title">
-            {/* <img src={image1}></img> */}
-            Sri Vari Electricals
+            <img src={image1}></img>
           </a>
         </div>
 
         <div className="navbar-2 navbar-3 navbar-5">
-          {["services", "aboutUs" ,"products", "gallery", "contactUs"].map(
+          {["services", "aboutUs", "products", "gallery", "contactUs"].map(
             (section) => (
               <Link
                 key={section}
@@ -60,9 +59,17 @@ function Navbar() {
             <div className={`bar ${isMenuOpen ? "animate" : ""}`}></div>
           </div>
         </div>
+
+        {/* Logo Moved to the Right Side */}
+        <div className="logo-container">
+          <a href="/" id="Title">
+            <img src={image1} alt="Logo" className="logo" />
+          </a>
+        </div>
+
         <nav className={`mobile-menu ${isMenuOpen ? "active" : ""}`}>
           <ul>
-            {["services", "aboutUs" ,"products", "gallery", "contactUs"].map(
+            {["services", "aboutUs", "products", "gallery", "contactUs"].map(
               (section) => (
                 <li key={section}>
                   <Link
